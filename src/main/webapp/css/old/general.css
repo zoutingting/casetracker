@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+html { height: 100%; }
+
+body {
+	height: 100%;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	padding: 0;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+a:link {
+	color: #06C;
+	text-decoration: none;
+}
+a:visited {
+	color: #06C;
+	text-decoration: none;
+}
+a:hover {
+	color: #093;
+	text-decoration: underline;
+}
+a:active {	
+	color: #06C;
+	text-decoration: none;
+}

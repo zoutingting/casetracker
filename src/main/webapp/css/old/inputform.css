@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* ==================== Form style sheet ==================== */
+
+form {
+	margin: 0px 0 0 0px;
+	width: 85%;
+	padding-bottom: 30px;
+}
+
+fieldset { margin: 0 0 22px 0; border: 1px solid #095D92; padding: 12px 17px; background-color: #DFF3FF; }
+legend { font-size: 1.1em; background-color: #095D92; color: #FFFFFF; font-weight: bold; padding: 4px 8px; }
+
+label.float { float: left; display: block; width: 100px; margin: 4px 0 0 0; clear: left; }
+label { display: block; width: auto; margin: 0 0 10px 0; }
+label.spam-protection { display: inline; width: auto; margin: 0; }
+
+input.inp-text, inp-text-short, textarea, input.choose, input.answer { border: 1px solid #909090; padding: 3px; }
+input.inp-text {
+	width: 600px;
+	margin: 0 0 8px 0;
+}
+input[type=text] {
+	font-family: Arial, Sans-Serif;
+	font-size: 16px;
+	color:#0033FF;
+	margin-bottom: 5px;
+	display: block;
+	padding: 4px;
+	border: solid 1px #85b1de;
+	width: 100%;
+}
+input[type=text]:hover {
+	background:#FFFFE1;
+}
+input[type=text]:focus {
+	background:#FFFFE1;
+	border: solid 1px #0000FF;
+}
+input[type=password] {
+	background:#F9F9F9;
+	font-size: 16px;
+	border: solid 1px #736357;
+	width: 100%;
+}
+input.inp-text-short { width: 150px; margin: 0 0 8px 0; }
+
+
+textarea {
+	width: 100%;
+	height: 200px;
+	margin: 0 0 12px 0;
+	display: block;
+	border: solid 1px #D6D1D1;
+	padding: 3px;
+	font-family: Arial, Sans-Serif;
+	font-size: 16px;
+	color:#0033FF;
+	background-color: #fff;
+}
+textarea:hover {
+	background:#FFFFE1;
+}
+textarea:focus {
+	background:#FFFFE1;
+	border: solid 1px #0000FF;
+}
+
+input.choose { margin: 0 2px 0 0; }
+input.answer { width: 40px; margin: 0 0 0 10px; }
+input.submit-button { font: 1.4em Georgia, "Times New Roman", Times, serif; letter-spacing: 1px; display: block; margin: 23px 0 0 0; }
+
+/*form br { display: none; }*/
+
+/* ==================== Form style sheet END ==================== */

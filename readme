@@ -1,0 +1,21 @@
+datastore
+https://console.cloud.google.com/datastore/entities/query/kind?folder=true&project=ericasetracker
+
+credentials in jsp
+https://console.developers.google.com/apis/credentials?authuser=0&project=ericasetracker
+
+dashboard
+https://console.cloud.google.com/home/dashboard?project=ericasetracker
+
+error
+https://console.cloud.google.com/errors?time=P1D&order=COUNT_DESC&resolution=OPEN&resolution=ACKNOWLEDGED&project=ericasetracker
+
+instance page
+https://console.cloud.google.com/appengine/instances?_ga=2.95793624.-515269335.1542506368
+
+debug
+https://cloud.google.com/eclipse/docs/running-and-debugging
+
+
+
+woefjewoif
